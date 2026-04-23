@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "./components.module.css";
 import { motion } from "framer-motion";
+import TrustedByCarousel from "./TrustedByCarousel";
 
 export default function Hero() {
   const openCalendly = (e: React.MouseEvent) => {
@@ -58,7 +59,6 @@ export default function Hero() {
             ))}
           </h1>
         </motion.div>
-        
         <motion.p 
           className={styles.heroSubtitle}
           initial={{ opacity: 0, y: 30 }}
@@ -67,7 +67,6 @@ export default function Hero() {
         >
           We help you in building your brand, which predictably brings more leads and build trust in your market segment.
         </motion.p>
-        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -77,6 +76,10 @@ export default function Hero() {
             Ignite Growth
           </a>
         </motion.div>
+        {/* Trusted By Carousel below CTA */}
+        <div style={{ marginTop: '2rem' }}>
+          <TrustedByCarousel />
+        </div>
       </div>
     </section>
   );

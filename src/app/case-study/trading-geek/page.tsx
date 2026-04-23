@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from '@/components/components.module.css';
 
-export default function RiyaUpretiCaseStudy() {
+export default function TradingGeekCaseStudy() {
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
 
   return (
@@ -14,7 +14,7 @@ export default function RiyaUpretiCaseStudy() {
       {/* Full-width Immersive Header */}
       <div style={{ width: '100%', height: '60vh', minHeight: '400px', position: 'relative', display: 'flex', alignItems: 'flex-end' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
-          <img src="/images/case-studies/riya.jpg" alt="Riya Upreti Background" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          <img src="/images/case-studies/tradinggeek.jpg" alt="The Trading Geek Background" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(2,2,2,1) 100%)' }}></div>
         </div>
 
@@ -22,7 +22,7 @@ export default function RiyaUpretiCaseStudy() {
           <Link href="/case-study" className={styles.btn} style={{ marginBottom: '2rem', padding: '0.6rem 1.2rem', fontSize: '0.9rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(10px)', borderColor: 'rgba(255,255,255,0.1)' }}>
             &larr; Back
           </Link>
-          <h1 className={styles.sectionTitle} style={{ fontSize: 'clamp(4rem, 8vw, 8rem)', margin: 0, color: 'white', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Riya Upreti</h1>
+          <h1 className={styles.sectionTitle} style={{ fontSize: 'clamp(4rem, 8vw, 8rem)', margin: 0, color: 'white', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>The Trading Geek</h1>
         </div>
       </div>
       
@@ -30,12 +30,12 @@ export default function RiyaUpretiCaseStudy() {
       <div style={{ maxWidth: '800px', margin: '4rem auto 0 auto', padding: '0 5vw' }}>
         <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '1.2rem', lineHeight: '1.8' }}>
           <p style={{ marginBottom: '2rem' }}>
-            We are proud to have significantly contributed to the growth of the RIYA UPRETI YouTube channel. Within just one year, we helped RIYA UPRETI increase its subscriber base from 800 to over 3,55,000 subscribers.
+            We helped Brad Goh (The Trading Geek) reach a dramatically larger audience than he ever had before, thanks to our YouTube growth expertise, sharper content strategy, and data-driven marketing. Now at 1.55M subscribers, his channel's reach is next-level.
           </p>
           <p style={{ marginBottom: '2rem' }}>
-            Our strategic approach, tailored content, and targeted marketing efforts have played a pivotal role in achieving this remarkable milestone. We look forward to continuing our partnership and further enhancing the success of the RIYA UPRETI YouTube channel.
+            Systematic content playbooks, SEO refinement, compelling thumbnails/titles, and non-stop analytics fueled this journey. We partnered closely with The Trading Geek to ensure every video performed, driving massive channel and business growth.
           </p>
-          <a href="http://www.youtube.com/@riyaupreti" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.75rem', color: '#ff0000', fontWeight: 'bold', textDecoration: 'none', border: '1px solid rgba(255,0,0,0.3)', padding: '0.8rem 1.5rem', borderRadius: '50px', background: 'rgba(255,0,0,0.05)', marginTop: '0.5rem', marginBottom: '1rem', transition: 'all 0.3s ease' }}>
+          <a href="https://www.youtube.com/@TheTradingGeek" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.75rem', color: '#ff0000', fontWeight: 'bold', textDecoration: 'none', border: '1px solid rgba(255,0,0,0.3)', padding: '0.8rem 1.5rem', borderRadius: '50px', background: 'rgba(255,0,0,0.05)', marginTop: '0.5rem', marginBottom: '1rem', transition: 'all 0.3s ease' }}>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
             Visit YouTube Channel
           </a>
@@ -255,13 +255,13 @@ export default function RiyaUpretiCaseStudy() {
           <h2 style={{ fontSize: '2rem', marginTop: '4rem', marginBottom: '2rem', color: 'white' }}>Let’s See Few Results</h2>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '3rem', marginBottom: '4rem' }}>
-            {[1, 2, 5, 8, 9, 10, 11, 12].map(num => {
-              const imgSrc = `/images/case-studies/riya-results/RIYA-${num}.png`;
+            {[1, 2].map(num => {
+              const imgSrc = `/images/case-studies/tradinggeek-results/TRADINGGEEK-${num}.png`;
               return (
                 <div key={num} style={{ position: 'relative', width: '100%', aspectRatio: '16/9', overflow: 'visible', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <img 
                     src={imgSrc} 
-                    alt={`Result ${num}`} 
+                    alt={`Trading Geek Result ${num}`} 
                     className="result-img"
                     style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} 
                     onClick={() => setSelectedImg(imgSrc)}

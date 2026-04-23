@@ -20,14 +20,14 @@ export default function CaseStudyPage() {
           {/* Case Study 1 */}
           <div className={`${styles.bentoCard} ${styles.bentoSpan4}`} style={{ padding: 0 }}>
             <div style={{ width: '100%', height: '250px', position: 'relative', overflow: 'hidden' }}>
-              <img src="/images/case-studies/riya.jpg" alt="Riya Upreti" style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s ease' }} className="hover-scale" />
+              <img src="/images/case-studies/tradinggeek.jpg" alt="The Trading Geek" style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s ease' }} className="hover-scale" />
             </div>
             <div style={{ padding: '2.5rem' }}>
-              <h3 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>Riya Upreti</h3>
+              <h3 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>The Trading Geek</h3>
               <p style={{ fontSize: '1rem', color: 'rgba(255, 255, 255, 0.6)', marginBottom: '2rem', lineHeight: '1.6' }}>
-                Within just one year, we helped RIYA UPRETI increase its subscriber base from 800 to over 3,55,000 subscribers. Our strategic approach, tailored content, and targeted marketing efforts played a pivotal role in achieving this remarkable milestone.
+                We helped Brad Goh (The Trading Geek) reach a dramatically larger audience than ever before by leveraging our YouTube growth expertise, smarter content strategy, and data-driven marketing. Now at 1.55M subscribers, his channel impact is next-level.
               </p>
-              <Link href="/case-study/riya-upreti" style={{ color: 'var(--accent-primary)', fontWeight: 'bold', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '0.1em', textDecoration: 'none' }}>Read More &rarr;</Link>
+              <Link href="/case-study/trading-geek" style={{ color: 'var(--accent-primary)', fontWeight: 'bold', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '0.1em', textDecoration: 'none' }}>Read More &rarr;</Link>
             </div>
           </div>
 
